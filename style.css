@@ -1,0 +1,155 @@
+body {
+    background-color: rgb(60, 63, 78);
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.g-header {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.g-navbar {
+    height: 48px;
+    padding-right: 4px;
+    padding-left: 30px;
+    display: flex;
+    color:  white;
+    justify-content: center;
+    align-items: center;
+}
+
+.g-navbar a {
+    margin-right: 15px;
+    font-weight: 500;
+    text-decoration:  none;
+    color: white;
+}
+
+.g-icon1 {
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.g-icon2 {
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.g-account {
+    background-image: url(https://lh3.googleusercontent.com/ogw/AF2bZyg8-NnBFHmwM8rCxMFRCChtdvhxtfXeIc_frMZ_vXUE5Ow=s32-c-mo);
+    background-size: contain;
+    margin-right: 20px;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+}
+
+/** Main ***/
+.g-logo {
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 38px;
+}
+
+/* Search Box */
+.g-search {
+    display: flex;
+    justify-content: center;
+
+}
+
+.search-icon {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 25px;
+    background-color: white;
+    height: 44px;
+    font-size: 20px;
+    width: 560px;
+}
+.search-icon input {
+    border: 2px solid transparent;
+    height: 44px;
+    text-decoration: none;
+    width: 100%;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+
+.g-icon {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 150px;
+
+}
+
+#g-glass {
+    margin-left: 30px;
+    font-size: 15px;
+    color: black;
+}
+
+.shortcut-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.add-shortcut {
+    width: 104px;
+    height: 104px;
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.add-shortcut:hover {
+    background-color: rgb(86, 84, 101);
+    border-radius: 10px;
+    padding: 10px;
+}
+.g-shortcut {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.shortcut-icon {
+    margin-top: -20px;
+    display: flex;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #91969c;
+    align-items: center;
+    justify-content: center;
+}
+
+.cust-cont {
+    display: flex;
+    justify-content: end;
+    margin-top: 65px;
+}
+.customize {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px;
+    border-radius: 15px;
+    gap: 5px;
+    color: white;
+    background-color: rgb(23, 26, 45);
+    width: 165px;
+    height: 32px;
+}
